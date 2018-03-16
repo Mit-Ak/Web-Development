@@ -1,0 +1,129 @@
+.container{
+    height:650px;
+
+    font-family: sans-serif;
+}
+.first{
+    height:40px;
+    background-color:#1d4e54;
+    color:ghostwhite;
+     padding: 1px;
+    font-size: 12px;
+}
+#header{
+    margin-left: 19%;
+     width: 30%;
+    float: left;
+}
+#header1{
+    width:130px;
+    float: left;
+    padding-left:15px;
+}
+#header2{
+    width: 130px;
+    float: left;
+    padding-left: 10px;
+}
+#header2 .fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+#header2 .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+#header3{
+    float: left;
+    padding-left:90px;
+    padding-top: 2px;
+}
+#header4{
+    float: left;
+    padding-left: 2px;
+    padding: 10px;
+     width:160px;
+}
+.second{
+    height:620px;
+     background-image: url(bicycle10.jpg);
+    background-size: 100% 620px;
+    border:1px solid grey;
+}
+.second-in{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 13%;
+    height: 530px;
+}
+#n1{
+    height:50px;
+}
+#n1 ul{
+    margin-left: 25%;
+    list-style-type: none;
+}
+#n1 ul li a{
+    text-decoration: none;
+    float: left;
+    padding:4px;
+    width:120px;
+    font-size: 15px;
+    color: whitesmoke;
+}
+#n2{
+    width:500px;
+    height:470px;
+    float: left;
+}
+#n3{
+    float: left;
+    width: 440px;
+    height: 470px;
+    
+}
+#n3-in{
+    width: 330px;
+    height: 360px;
+    margin-left: 6%;
+    margin-top: 5%;
+    padding: 40px;
+    background-color;
+    opacity: 0.7;
+}
+
+#n3-in input{
+    width: 330px;
+    height:30px;
+    font-size: 20px;
+    color:darkcyan;
+    background-color: gainsboro;
+}
+#n3-in input#sub{
+    width: 200px;
+    margin-left: 15%;
+    background-color: darkseagreen;
+}

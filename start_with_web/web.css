@@ -1,0 +1,101 @@
+.first{
+    font-family: sans-serif;
+    margin-right: 20%;
+    margin-top: -10px;
+    margin-left: 15%;
+    padding-top:0px;
+    padding-bottom: 40px;
+     border-bottom: 1px solid darkgrey; 
+}
+.first img{
+   margin: 3px;
+    float: left;
+}
+.first p{
+    padding-top: 6px;
+    width: 50%;
+    margin:6px;
+    color: darkgrey;
+    font-size: 15px;
+    float:left;
+}
+.first ul{
+    list-style-type: none;
+}
+.first ul li a{
+    color: darkgrey;
+    padding: 10px;
+    margin: 14px;
+    border-left: 1px solid darkgrey ;
+    margin-top: -1px;
+    margin-bottom: 10px;
+    float: left;
+    font-size: 15px;
+    text-decoration: none;
+}
+.first ul li a#cool{
+    background-color:gold;
+    color: beige;
+}
+.second{
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: 2px;
+     padding: 0px 0px 10px 0px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.second ul{
+    list-style-type: none;
+    clear: both;
+}
+.second ul li a{
+    padding: 10px;
+    padding-top: 0px;
+    float: left;
+    font-size: 12px;
+    text-decoration:none;
+    color:dimgray;
+}
+.third{
+    height: 400px;
+}
+.third .mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.fourth{
+    height:100px;
+    background-color:darkslategray;
+}
+.fourth ul{
+    margin-left: 10%;
+    margin-right: 17%;
+    padding-top: 15px;
+    list-style-type: none;
+}
+.fourth ul li{
+    width:120px;
+    padding:3px;
+    font-size: 12px;
+    color:gray;
+    float: left;
+}
+.fourth ul li a{
+    color:white;
+     text-decoration: none;
+}
+.fifth-outer{
+    width: 1330px;
+}
+.fifth{
+    margin-left: 15%;
+    height:400px;
+    width: 650px;
+}
+.fifth-inner{
+    width:400px;
+    height:400px;
+    float: right;
+    padding-left:30px;
+}

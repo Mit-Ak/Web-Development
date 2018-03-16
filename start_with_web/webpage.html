@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Education Wedpages</title>
+<link rel="stylesheet" type="text/css" href="web.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div>
+	<div class="first">
+		<img src="pepsi.png" alt="pepsi" width="40px" height="30px">
+        <p>Ideas worth spreading</p>
+        <ul>
+        <li><a href="#">Pupil</a></li>
+        <li><a href="#">Staff</a></li>
+        <li><a href="#">Parents</a></li>
+        <li><a href="#" id="cool">Donate</a></li>
+        </ul>
+	</div>
+    <div class="second">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Academics</a></li>
+        <li><a href="#">School Life</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+        <i class="fa fa-facebook-square" style="font-size:24px;color:mediumblue;padding:0px 10px 0px 180px"></i>
+        <i class="fa fa-github" style="font-size:24px;padding:0px 10px 0px 0px"></i>
+        <i class="fa fa-google-plus-official" style="font-size:24px;color: red;padding:0px 10px 0px 0px"></i>
+        <i class="fa fa-linkedin-square" style="font-size:24px;color:deepskyblue;padding:0px 10px 0px 0px"></i>
+    </div>
+    
+    <div class="third">
+<div class="w3-content w3-display-container" style="max-width:100%;max-height: 400px">
+  <img class="mySlides" src="edu2.jpg" style="width:100%;height:400px">
+  <img class="mySlides" src="edu1.jpg" style="width:100%;height:400px">
+  <img class="mySlides" src="thou.jpg" style="width:100%;height:400px">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+    </div>
+    
+    <div class="fourth">
+    <ul>
+        <a href="#">
+            <span class="glyphicon glyphicon-bell" style="font-size: 24px;background-color:deepskyblue;color:aliceblue;padding:10px 10px 10px 10px;float: left"></span></a>
+            <li><a href="#" id="pro">PROGRAMS</a> Develop fine and gross skills</li>
+            <li><a href="#"><i class="fa fa-list-alt" style="font-size:24px;background-color:darkorange;color:aliceblue;padding:10px 10px 10px 10px;float: left"></i> PROGRAMS</a> Develop fine and gross skills</li>
+        </ul>
+    </div>
+    <div class="fifth-outer">
+        <div class="fifth-inner">
+            <h2>News Feed</h2>
+            <p style="font-size: 13px;color: dimgray">
+JK STEPHEN
+The octave of JK Stephen’s sonnet about William Wordsworth — scaldingly funny and very unkind — came into my head this week when I read the transcript of Donald Trump’s national security strategy speech. Two voices were there, indeed.
+
+One of the peculiarities of the public speech of Donald Trump’s presidency is that, where most presidents are able to marshal a number of registers (lofty, intimate, folksy, statesmanlike, cajoling, determined), number 45 seems to speak with two altogether distinct voices.
+
+There is the one that attracts all the attention — the angry, narcissistic, insulting tone of his unfiltered Twitter feed and his rabble-rousing improvisations at rallies and in interviews. And then there is the one — widely assumed to be a sign that his cooler-headed advisers have taken control — that sounds conventionally presidential.
+
+Those expecting the defeat of Roy Moore in Alabama to produce an eruption of the former, for instance, will have been disconcerted to read his response: “Congratulations to Doug Jones on a hard fought victory. The write-in votes played a very big factor, but a win is a win.”
+</p>
+           </div>
+    <div class="fifth">
+        <br>
+        <p style="font-family: sans-serif;color: black;font-size: 20px">Please input an email down below and hit subscribe now in order to get the latest news or <u><em>Request a quote</em></u></p><br>
+        <div class="part1" style="width:200px;height: 260px; float: left;margin: 1%">
+        <img src="book1.jpg" width="200px" height="150px">
+        <br>
+            <h4><b>Strategies</b></h4>
+            <p style="color: gray;font-size: 12px">
+	One of the peculiarities of the public speech of Donald Trump’s presidency is that, where most presidents are able to marshal.
+</p>
+        </div>
+        <div class="part2" style="width:200px;height: 260px; float: left;margin: 1%">
+             <img src="book3.jpg" width="200px" height="150px">
+            <br>
+            <h4><b>Motivation</b></h4>
+            <p style="color: gray;font-size: 12px">
+	One of the peculiarities of the public speech of Donald Trump’s presidency is that, where most presidents are able to marshal.
+</p>
+        </div>
+       <div class="part3" style="width:200px;height: 260px; float:left;margin: 1%">
+            <img src="book2.jpg" width="200px" height="150px">
+           <br>
+           <h4><b>Why us? Watch now</b></h4>
+            <p style="color: gray;font-size: 12px">
+	One of the peculiarities of the public speech of Donald Trump’s presidency is that, where most presidents are able to marshal.
+           </p>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
